@@ -1,0 +1,156 @@
+* {
+    background-color: #E8ECEB;
+    color: #2D3E4E;
+    font-family: 'Lora';
+    margin: 0;
+    padding: 10px;
+}
+
+/* TOPNAV */
+.topnav {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    background-color: #8CBDB9;
+    border-radius: 30px;
+    top: 0px;
+    z-index: 200;
+    position: sticky;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+.topnav a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8CBDB9;
+}
+
+.topnav a:hover {
+    background-color: #E8ECEB;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* HOME */
+.Home {
+    position: relative;
+    top: 50px;
+    height: 700px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding-top: 0px;
+}
+
+.container-intro {
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.intro-text {
+    top: 0px;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    padding: 0;
+}
+
+.intro-text p {
+    font-size: 20px;
+}
+
+.headshot {
+    background-image: url('./CM_foreground.png');   
+    height: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate3d(0, 0, 0) scale3d(1,1,1);
+    transform-style: preserve-3d;
+    flex: 1;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Experiences */
+.container-exp {
+    max-width: 728px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.exp {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    max-width: 200px;
+}
+.exp-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+.exp-text {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+}
+.exp-blurb {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.spark-txt {
+    background-color: #2D3E4E;
+    color:#E8ECEB;
+}
+.SPARK-img {
+    background-image: url("https://spark.engin.umich.edu/images/logoAndName.png");
+    background-color: #2D3E4E;
+    width: 90%;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate3d(0, 0, 0) scale3d(1,1,1);
+    transform-style: preserve-3d;
+    flex: 1;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

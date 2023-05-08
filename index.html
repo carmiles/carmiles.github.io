@@ -1,42 +1,64 @@
+<!-- light_gray = #E8ECEB -->
+<!-- light_orange = #E09E50 -->
+<!-- light_blue = #8CBDB9 -->
+<!-- dark_blue = #2D3E4E -->
 <!DOCTYPE html>
 <html lang="en">
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+
 <head>
-    <style> 
-    h1 {text-align: left;}
-    </style>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Carly Miles's personal website" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/icons/favicon-16x16.png"
-    />
+    <!-- <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" /> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
     <link rel="alternate icon" sizes="48x48" href="/icons/favicon.ico" />
     <title>Carly Miles</title>
 </head>
+
 <body>
-    <h1> Carly Miles </h1>
-    <figure>
-        <img 
-            src="./CM_foreground.png" 
-            alt="Headshot of Carly Miles" 
-            width="25%" 
-            height="auto" 
-        />
-        <figcaption>
-            Carly Miles is a computer science student at the University of Michigan.
-        </figcaption>
-    </figure>
-    
+    <nav class="topnav">
+        <a href="#Home">Home</a>
+        <a href="#Experiences">Experiences</a>
+        <a href="#Projects">Projects</a>
+    </nav>
+    <section id="Home" class="Home">
+        <div class="container container-intro">
+            <div class="intro-text">
+                <h2 styles="padding: 0;">Hi, I'm</h2>
+                <h1>Carly Miles.</h1>
+                <p>I am a third-year computer science student at the University of Michigan
+                    with interests in machine learning, web development, and embedded systems.
+                </p>
+            </div>
+            <div class="image-container headshot">
+            </div>
+            <!-- <img class="headshot" src="./CM_foreground.png" alt="Headshot of Carly Miles"> -->
+            <!-- <img /> -->
+        </div>
+    </section>
+    <section id="Experiences">
+        <div class="container container-exp">
+            <div class="exp" style="background-color: #2D3E4E;">
+                <a class="exp-link spark-txt" href="https://spark.engin.umich.edu/" target="_blank" rel="noreferrer">
+                    <div class="SPARK-img"></div>
+                </a>
+                <div class="exp-text">
+                    <p class="exp-header spark-txt">Powertrain Control Software Team Lead</p>
+                    <p class="exp-blurb spark-txt">Worked on x y z leading this organizing that ........</p>
+                </div>
+            </div>
+            <div class="exp">
+                <a class="exp-link tmd-text" href="">
+                    <div class="tmd-img"></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
